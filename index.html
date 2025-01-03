@@ -293,7 +293,18 @@
     
         function showCandidaturas(index) {
             const candidaturas = propostasData[index]?.candidaturas || [];
-            popupTotal.textContent = `Total de Candidaturas: ${candidaturas.length}`;
+            const totalSelecionada = candidaturas.filter(c => c.estado === 'Selecionada').length;
+            const totalCandidatada = candidaturas.filter(c => c.estado === 'Candidatada').length;
+            const totalRetirada = candidaturas.filter(c => c.estado === 'Retirada').length;
+
+            popupTotal.innerHTML = `
+                <div class="d-flex flex-row gap-2">
+                    <a>Total de Candidaturas: ${candidaturas.length}</a>|
+                    <p style="color: purple;">Total de Candidatadas: ${totalCandidatada}</p>|
+                    <p style="color: green;">Total de Selecionadas: ${totalSelecionada}</p>|
+                    <p style="color: red;">Total de Retiradas: ${totalRetirada}</p>
+                </div>
+            `;
         
             const formattedCandidaturas = candidaturas.map(candidatura => ({
             nome_completo: `${candidatura.estudante.nome} ${candidatura.estudante.sobrenome}`,

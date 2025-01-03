@@ -134,6 +134,9 @@
             <h4>Detalhes das Candidaturas</h4>
             <button class="btn btn-primary" onclick="closePopup()">Fechar</button>
         </div>
+
+        <div id="popupTotal"></div>
+
         <table id="candidaturasContent" class="table table-striped"
                data-toggle="table"
                data-sortable="true"
@@ -250,6 +253,35 @@
         function showCandidaturas(sigla) {
             const estudante = estudantesData[sigla];
             if (!estudante) return;
+
+
+            /* 
+            const candidaturas = propostasData[index]?.candidaturas || [];
+            const totalSelecionada = candidaturas.filter(c => c.estado === 'Selecionada').length;
+            const totalCandidatada = candidaturas.filter(c => c.estado === 'Candidatada').length;
+            const totalRetirada = candidaturas.filter(c => c.estado === 'Retirada').length;
+
+            popupTotal.innerHTML = `
+                <div class="d-flex flex-row gap-2">
+                    <a>Total de Candidaturas: ${candidaturas.length}</a>|
+                    <p style="color: purple;">Total de Candidatadas: ${totalCandidatada}</p>|
+                    <p style="color: green;">Total de Selecionadas: ${totalSelecionada}</p>|
+                    <p style="color: red;">Total de Retiradas: ${totalRetirada}</p>
+                </div>
+            `;*/
+
+            const totalSelecionada = estudante.candidaturas.filter(c => c.estado === 'Selecionada').length;
+            const totalCandidatada = estudante.candidaturas.filter(c => c.estado === 'Candidatada').length;
+            const totalRetirada = estudante.candidaturas.filter(c => c.estado === 'Retirada').length;
+
+            document.getElementById('popupTotal').innerHTML = `
+                <div class="d-flex flex-row gap-2">
+                    <a style="font-weight: bold;">Total de Candidaturas: ${estudante.candidaturas.length}</a> |
+                    <p style="color: purple; font-weight: bold;">Total de Candidatadas: ${totalCandidatada}</p> |
+                    <p style="color: green; font-weight: bold;">Total de Selecionadas: ${totalSelecionada}</p> |
+                    <p style="color: red; font-weight: bold;">Total de Retiradas: ${totalRetirada}</p>
+                </div>
+            `;
         
             // Update the candidaturas table with estudante's data
             $('#candidaturasContent').bootstrapTable('destroy'); // Clear the table before reloading
