@@ -45,6 +45,11 @@
 <body>
     <div class="container">
         <h1 class="my-4">Propostas PESTI - Candidaturas por Estudante</h1>
+        <div class="d-flex flex-row gap-2">
+            <a href="index.html" class="btn btn-info">Todas as Propostas</a>
+            <a href="estudante.html" class="btn btn-primary">Por Estudante</a> 
+        </div>
+        <hr class="my-4">
         <div class="mb-4 d-flex flex-row gap-2">
             <button class="btn btn-dark flex-shrink-0" onclick="openPastePopup()">Copiar e Colar o Pedido</button>
             <input type="file" id="fileInput" accept="application/json" class="form-control flex-grow-1">
@@ -71,7 +76,6 @@
             <button class="btn btn-primary" onclick="pasteJson()">Carregar JSON</button>
         </div>
 
-        <a href="index.html" class="btn btn-primary mb-4">Todas as Propostas</a>
         <div>
             <label class="form-label" for="readOnlyInput">Dados de anos anteriores</label>
             <div class="mb-2 d-flex gap-2">
