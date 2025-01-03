@@ -303,8 +303,8 @@
             popupTotal.innerHTML = `
                 <div class="d-flex flex-row gap-2">
                     <a>Total de Candidaturas: ${candidaturas.length}</a>|
-                    <p style="color: purple;">Total de Candidatadas: ${totalCandidatada}</p>|
-                    <p style="color: green;">Total de Selecionadas: ${totalSelecionada}</p>|
+                    <p style="color: green;">Total de Candidatadas: ${totalCandidatada}</p>|
+                    <p style="color: grey;">Total de Selecionadas: ${totalSelecionada}</p>|
                     <p style="color: red;">Total de Retiradas: ${totalRetirada}</p>
                 </div>
             `;
@@ -345,8 +345,8 @@
     
         function getStatusColor(status) {
             switch (status) {
-                case 'Candidatada': return 'purple';
-                case 'Selecionada': return 'green';
+                case 'Candidatada': return 'green';
+                case 'Selecionada': return 'grey';
                 case 'Retirada': return 'red';
                 case 'Aceite': return 'magenta';
                 case 'Atribuída': return 'blue';
