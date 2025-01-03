@@ -86,7 +86,6 @@
         </div>
 
         
-    </div>
         <table id="propostasTable" 
                class="table table-striped"
                data-toggle="table"
@@ -101,6 +100,7 @@
                     <th data-field="data_submissao" data-sortable="true">Data Submissão</th>
                     <th data-field="organizacao" data-sortable="true">Organização</th>
                     <th data-field="titulo" data-sortable="true">Título</th>
+                    <th data-field="estudante" data-sortable="true">Estudante Atribuído</th>
                     <th data-field="estado" data-sortable="true">Estado</th>
                     <th data-field="acoes">Ações</th>
                 </tr>
@@ -251,11 +251,12 @@
                 organizacao: proposta.submissao.proponente.organizacao,
                 titulo: proposta.submissao.titulo,
                 estado: `<span style="color: ${getStatusColor(proposta.estado)}; font-weight: bold;">${proposta.estado}</span>`,
+                estudante: proposta.atribuicao && proposta.atribuicao.estudante && proposta.atribuicao.estudante.nome ? `${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}` : '-', 
                 acoes: `
                     <div class="d-flex flex-row gap-2">
-                        <button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Ver Candidaturas</button>
-                        <button class="btn btn-info btn-sm" onclick="showProblema(${index})">Ver Problema</button>
-                        <button class="btn btn-info btn-sm" onclick="showObjetivos(${index})">Ver Objetivos</button>
+                        <button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Candidaturas</button>
+                        <button class="btn btn-info btn-sm" onclick="showProblema(${index})">Problema</button>
+                        <button class="btn btn-info btn-sm" onclick="showObjetivos(${index})">Objetivos</button>
                     </div>
                 `
             }));
