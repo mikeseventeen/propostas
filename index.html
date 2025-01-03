@@ -85,8 +85,7 @@
             </div>
         </div>
 
-
-
+        
     </div>
         <table id="propostasTable" 
                class="table table-striped"
@@ -102,8 +101,6 @@
                     <th data-field="data_submissao" data-sortable="true">Data Submissão</th>
                     <th data-field="organizacao" data-sortable="true">Organização</th>
                     <th data-field="titulo" data-sortable="true">Título</th>
-                    <th data-field="problema" data-sortable="true">Problema</th>
-                    <th data-field="objetivos" data-sortable="true">Objetivos</th>
                     <th data-field="estado" data-sortable="true">Estado</th>
                     <th data-field="acoes">Ações</th>
                 </tr>
@@ -130,6 +127,38 @@
             </thead>
             <tbody></tbody>
         </table>
+    </div>
+
+    <!-- Modal for Objetivos -->
+    <div class="modal fade" id="objetivosModal" tabindex="-1" aria-labelledby="objetivosModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="objetivosModalLabel">Objetivos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="objetivosText"></div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Problema -->
+    <div class="modal fade" id="problemaModal" tabindex="-1" aria-labelledby="problemaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="problemaModalLabel">Problema</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="problemaText"></div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
     </div>
 
     <!-- jQuery -->
@@ -221,16 +250,41 @@
                 data_submissao: new Date(proposta.submissao.data_submissao).toLocaleString('pt-PT'),
                 organizacao: proposta.submissao.proponente.organizacao,
                 titulo: proposta.submissao.titulo,
-                problema: proposta.submissao.problema,
-                objetivos: proposta.submissao.objetivos.replace(/\n/g, '<br>'),
-                estado: proposta.estado,
-                acoes: `<button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Ver Candidaturas</button>`
+                estado: `<span style="color: ${getStatusColor(proposta.estado)}; font-weight: bold;">${proposta.estado}</span>`,
+                acoes: `
+                    <div class="d-flex flex-row gap-2">
+                        <button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Ver Candidaturas</button>
+                        <button class="btn btn-info btn-sm" onclick="showProblema(${index})">Ver Problema</button>
+                        <button class="btn btn-info btn-sm" onclick="showObjetivos(${index})">Ver Objetivos</button>
+                    </div>
+                `
             }));
-
+        
             $('#propostasTable').bootstrapTable('destroy').bootstrapTable({
                 data: formattedData,
             });
         }
+        
+        // Show Problema in modal
+        function showProblema(index) {
+            const proposta = propostasData[index];
+            const problemaText = proposta.submissao.problema;
+        
+            document.getElementById('problemaText').innerHTML = problemaText;
+            const problemaModal = new bootstrap.Modal(document.getElementById('problemaModal'));
+            problemaModal.show();
+        }
+        
+        // Show Objetivos in modal
+        function showObjetivos(index) {
+            const proposta = propostasData[index];
+            const objetivosText = proposta.submissao.objetivos;
+        
+            document.getElementById('objetivosText').innerHTML = objetivosText;
+            const objetivosModal = new bootstrap.Modal(document.getElementById('objetivosModal'));
+            objetivosModal.show();
+        }
+        
     
         function showCandidaturas(index) {
             const candidaturas = propostasData[index]?.candidaturas || [];
@@ -277,6 +331,9 @@
                 case 'Retirada': return 'red';
                 case 'Aceite': return 'magenta';
                 case 'Atribuída': return 'blue';
+                case 'Publicada': return 'grey';
+                case 'Aprovada': return 'green';
+                case 'Cancelada': return 'red';
                 default: return 'black';
             }
         }
