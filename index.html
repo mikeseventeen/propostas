@@ -248,7 +248,7 @@
         function displayPropostas(propostas) {
             const formattedData = propostas.map((proposta, index) => ({
                 data_submissao: new Date(proposta.submissao.data_submissao).toLocaleString('pt-PT'),
-                organizacao: proposta.submissao.proponente.organizacao,
+                organizacao: proposta.organizacao.denominacao_curta,
                 titulo: proposta.submissao.titulo,
                 estado: `<span style="color: ${getStatusColor(proposta.estado)}; font-weight: bold;">${proposta.estado}</span>`,
                 estudante: proposta.atribuicao && proposta.atribuicao.estudante && proposta.atribuicao.estudante.nome ? `${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}` : '-', 

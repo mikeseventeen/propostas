@@ -212,7 +212,7 @@
 
                     estudantesData[sigla].total++;
                     estudantesData[sigla].candidaturas.push({
-                        empresa: proposta.submissao.proponente.organizacao,
+                        empresa: proposta.organizacao.denominacao_curta,
                         titulo: proposta.submissao.titulo,
                         estado: candidatura.estado,
                         data: new Date(proposta.submissao.data_submissao).toLocaleDateString()
