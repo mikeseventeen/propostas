@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidaturas por Estudante</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootswatch Theme -->
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/lumen/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 20px;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            max-width: 90%;
+            width: 800px;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Candidaturas por Estudante</h1>
+        <input type="file" id="fileInput" accept="application/json" class="form-control mb-4">
+
+        <a href="index.html" class="btn btn-primary mb-4">Todas as Propostas</a>
+
+        <table id="estudantesTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Estudante</th>
+                    <th>Email</th>
+                    <th>Total de Candidaturas</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <div class="d-flex justify-content-between mb-4 sticky-top bg-white p-2">
+            <h4>Detalhes das Candidaturas</h4>
+            <button class="btn btn-primary" onclick="closePopup()">Fechar</button>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Empresa</th>
+                    <th>Título da Vaga</th>
+                    <th>Estado</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody id="candidaturasContent"></tbody>
+        </table>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const estudantesTable = document.querySelector('#estudantesTable tbody');
+        const popup = document.getElementById('popup');
+        const overlay = document.getElementById('overlay');
+        const candidaturasContent = document.getElementById('candidaturasContent');
+
+        let estudantesData = {};
+
+        window.onload = function() {
+            fetch('propostas.json')
+                .then(response => response.json())
+                .then(data => processEstudantes(data))
+                .catch(error => console.error('Error loading default file:', error));
+        };
+        
+
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const json = JSON.parse(e.target.result);
+                    processEstudantes(json);
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function processEstudantes(propostas) {
+            estudantesData = {};
+
+            propostas.forEach(proposta => {
+                const candidaturas = proposta.candidaturas || [];
+
+                candidaturas.forEach(candidatura => {
+                    const { estudante } = candidatura;
+                    const sigla = estudante.sigla;
+
+                    if (!estudantesData[sigla]) {
+                        estudantesData[sigla] = {
+                            nome: `${estudante.nome} ${estudante.sobrenome}`,
+                            email: estudante.email,
+                            total: 0,
+                            candidaturas: []
+                        };
+                    }
+
+                    estudantesData[sigla].total++;
+                    estudantesData[sigla].candidaturas.push({
+                        empresa: proposta.submissao.proponente.organizacao,
+                        titulo: proposta.submissao.titulo,
+                        estado: candidatura.estado,
+                        data: new Date(proposta.submissao.data_submissao).toLocaleDateString()
+                    });
+                });
+            });
+
+            displayEstudantes();
+        }
+
+        function displayEstudantes() {
+            const estudantesArray = Object.values(estudantesData).sort((a, b) => b.total - a.total);
+            estudantesTable.innerHTML = '';
+
+            estudantesArray.forEach((estudante, index) => {
+                const row = document.createElement('tr');
+
+                row.innerHTML = `
+                    <td>${estudante.nome}</td>
+                    <td>${estudante.email}</td>
+                    <td>${estudante.total}</td>
+                    <td><button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Ver Detalhes</button></td>
+                `;
+                estudantesTable.appendChild(row);
+            });
+        }
+
+        function showCandidaturas(index) {
+            const estudante = Object.values(estudantesData).sort((a, b) => b.total - a.total)[index];
+
+            candidaturasContent.innerHTML = '';
+
+            estudante.candidaturas.forEach(candidatura => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${candidatura.empresa}</td>
+                    <td>${candidatura.titulo}</td>
+                    <td style="color: ${candidatura.estado === 'Candidatada' ? 'green' : (candidatura.estado === 'Selecionada' ? 'purple' : (candidatura.estado === 'Retirada' ? 'red' : (candidatura.estado === 'Aceite' ? 'magenta' : 'black')))}; font-weight: bold;">
+  ${candidatura.estado}
+</td>
+
+
+                    <td>${candidatura.data}</td>
+                `;
+                candidaturasContent.appendChild(row);
+            });
+
+            popup.style.display = 'block';
+            overlay.style.display = 'block';
+        }
+
+        function closePopup() {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
