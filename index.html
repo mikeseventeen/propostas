@@ -106,6 +106,7 @@
                     <th data-field="titulo" data-sortable="true">Título</th>
                     <th data-field="estudante" data-sortable="true">Estudante Atribuído</th>
                     <th data-field="estado" data-sortable="true">Estado</th>
+                    <th data-field="candidaturas" data-sortable="true">Total Candidaturas</th>
                     <th data-field="acoes">Ações</th>
                 </tr>
             </thead>
@@ -256,6 +257,7 @@
                 titulo: proposta.submissao.titulo,
                 estado: `<span style="color: ${getStatusColor(proposta.estado)}; font-weight: bold;">${proposta.estado}</span>`,
                 estudante: proposta.atribuicao && proposta.atribuicao.estudante && proposta.atribuicao.estudante.nome ? `${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}` : '-', 
+                candidaturas: proposta.candidaturas.length,
                 acoes: `
                     <div class="d-flex flex-row gap-2">
                         <button class="btn btn-primary btn-sm" onclick="showCandidaturas(${index})">Candidaturas</button>
