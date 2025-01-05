@@ -625,6 +625,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1150736",
+                    "email": "1150736@isep.ipp.pt",
+                    "nome": "Tiago",
+                    "sobrenome": "Sousa"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:21:43.327Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -1451,6 +1466,51 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221189",
+                    "email": "1221189@isep.ipp.pt",
+                    "nome": "Lopes",
+                    "sobrenome": "1221189"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T14:27:16.811Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1211252",
+                    "email": "1211252@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211252"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:48:36.508Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1191830",
+                    "email": "1191830@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1191830"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T18:59:31.219Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -1813,6 +1873,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-27T13:29:50.661Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1150736",
+                    "email": "1150736@isep.ipp.pt",
+                    "nome": "Tiago",
+                    "sobrenome": "Sousa"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:16:05.267Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -2411,6 +2486,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:40:06.222Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -2976,6 +3066,21 @@
                         "sobrenome": "Ramos"
                     }
                 }
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1191830",
+                    "email": "1191830@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1191830"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T19:00:35.056Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -4410,6 +4515,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-30T15:08:36.621Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1180862",
+                    "email": "1180862@isep.ipp.pt",
+                    "nome": "Francisco",
+                    "sobrenome": "1180862"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:27:06.710Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -6052,6 +6172,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:32:34.046Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:32:51.474Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -6129,21 +6266,6 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-12T19:10:37.330Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221289",
-                    "email": "1221289@isep.ipp.pt",
-                    "nome": "Botelho",
-                    "sobrenome": "1221289"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-12T20:58:46.247Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -7123,7 +7245,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1200546",
                     "email": "1200546@isep.ipp.pt",
@@ -7133,7 +7255,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-16T09:50:05.132Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T09:35:48.817Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -7342,6 +7466,40 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2025-01-02T17:09:44.583Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211252",
+                    "email": "1211252@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211252"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:47:59.350Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T16:52:00.664Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:18:57.081Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:19:08.843Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -7653,7 +7811,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1211314",
                     "email": "1211314@isep.ipp.pt",
@@ -7663,7 +7821,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-12T22:17:07.180Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T12:00:33.629Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -8065,11 +8225,11 @@
         "aprovacao": {},
         "desaprovacao": {},
         "cancelamento": {},
+        "encerradaCandidaturas": true,
         "acoesAutorizadas": [
             "consultar",
             "consultar_orientadores_interessados",
-            "selecionar",
-            "selecionar"
+            "selecionar_pausada"
         ]
     },
     {
@@ -8382,6 +8542,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2025-01-02T19:31:04.679Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1211252",
+                    "email": "1211252@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211252"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:49:48.758Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -8916,7 +9091,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1220950",
                     "email": "1220950@isep.ipp.pt",
@@ -8925,6 +9100,23 @@
                 },
                 "selecao": {
                     "data_selecao": "2025-01-02T16:47:25.823Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T20:55:12.227Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221891",
+                    "email": "1221891@isep.ipp.pt",
+                    "nome": "Oliveira",
+                    "sobrenome": "1221891"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:21:12.444Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -9540,7 +9732,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -9664,6 +9856,40 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211252",
+                    "email": "1211252@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211252"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:50:34.664Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T16:50:50.468Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T17:13:52.421Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T17:15:47.371Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -9682,7 +9908,7 @@
     },
     {
         "_id": "67377d031a542d5560f2f1d9",
-        "estado": "Atribuída",
+        "estado": "Aceite",
         "organizacao": {
             "_id": "632dabbaa717453c05e20bbd",
             "denominacao_curta": "SISTRADE",
@@ -9928,7 +10154,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Atribuída",
+                "estado": "Aceite",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -10552,7 +10778,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -10642,21 +10868,6 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-25T19:06:38.571Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1220964",
-                    "email": "1220964@isep.ipp.pt",
-                    "nome": "Campilho",
-                    "sobrenome": "1220964"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-26T12:41:06.307Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -10979,6 +11190,23 @@
                     "data_selecao": "2025-01-02T16:37:46.388Z"
                 },
                 "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1212243",
+                    "email": "1212243@isep.ipp.pt",
+                    "nome": "Cunha",
+                    "sobrenome": "1212243"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T12:36:33.981Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T12:53:24.736Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -14529,6 +14757,38 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220950",
+                    "email": "1220950@isep.ipp.pt",
+                    "nome": "Martins",
+                    "sobrenome": "1220950"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T01:02:45.026Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T01:03:53.507Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221289",
+                    "email": "1221289@isep.ipp.pt",
+                    "nome": "Botelho",
+                    "sobrenome": "1221289"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T14:44:43.075Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -15057,6 +15317,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220950",
+                    "email": "1220950@isep.ipp.pt",
+                    "nome": "Martins",
+                    "sobrenome": "1220950"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T01:03:37.553Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T01:03:44.910Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -15397,6 +15674,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-25T19:06:53.419Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1140951",
+                    "email": "1140951@isep.ipp.pt",
+                    "nome": "Vitor",
+                    "sobrenome": "Paiva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T19:11:18.755Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -16335,6 +16627,38 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2025-01-02T17:10:25.651Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:50:08.346Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:20:27.140Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:20:30.942Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -20234,6 +20558,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T14:06:40.312Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T14:21:23.334Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -21926,7 +22267,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1200546",
                     "email": "1200546@isep.ipp.pt",
@@ -21936,7 +22277,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-19T18:47:42.725Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T09:36:18.024Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -22500,6 +22843,23 @@
                     "data_selecao": "2024-12-30T15:46:14.341Z"
                 },
                 "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:36:08.054Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T13:36:14.016Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -25237,6 +25597,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:53:52.924Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -25479,6 +25854,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-27T15:54:06.231Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:34:29.121Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:34:58.886Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -25942,7 +26334,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -26138,7 +26530,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -26384,7 +26776,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -26462,6 +26854,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-27T14:33:38.166Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:13:10.701Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:13:16.619Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -26678,6 +27087,38 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1212243",
+                    "email": "1212243@isep.ipp.pt",
+                    "nome": "Cunha",
+                    "sobrenome": "1212243"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T12:31:51.323Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T12:32:04.165Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:33:59.705Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -26853,6 +27294,23 @@
                     "data_selecao": "2024-12-25T19:07:52.993Z"
                 },
                 "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1212243",
+                    "email": "1212243@isep.ipp.pt",
+                    "nome": "Cunha",
+                    "sobrenome": "1212243"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T12:31:46.808Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T12:31:55.760Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -27059,6 +27517,38 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-30T11:18:01.089Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221189",
+                    "email": "1221189@isep.ipp.pt",
+                    "nome": "Lopes",
+                    "sobrenome": "1221189"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T14:30:41.961Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:32:29.637Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:33:02.369Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -27573,21 +28063,6 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1220964",
-                    "email": "1220964@isep.ipp.pt",
-                    "nome": "Campilho",
-                    "sobrenome": "1220964"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-12T21:46:28.042Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
                 "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1211656",
@@ -27848,7 +28323,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -28167,6 +28642,38 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-26T16:49:49.320Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1170570",
+                    "email": "1170570@isep.ipp.pt",
+                    "nome": "Isaías",
+                    "sobrenome": "1170570"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T22:31:13.419Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1212243",
+                    "email": "1212243@isep.ipp.pt",
+                    "nome": "Cunha",
+                    "sobrenome": "1212243"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:18:12.979Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:18:17.340Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -28554,6 +29061,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:35:46.861Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:36.509Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -28665,21 +29189,6 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-12T17:51:52.369Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221289",
-                    "email": "1221289@isep.ipp.pt",
-                    "nome": "Botelho",
-                    "sobrenome": "1221289"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-12T20:50:19.434Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -29039,6 +29548,38 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-30T13:55:47.890Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:35:40.230Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:44.794Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221289",
+                    "email": "1221289@isep.ipp.pt",
+                    "nome": "Botelho",
+                    "sobrenome": "1221289"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T14:46:34.507Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -30170,6 +30711,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220950",
+                    "email": "1220950@isep.ipp.pt",
+                    "nome": "Martins",
+                    "sobrenome": "1220950"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T20:49:08.874Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -31058,6 +31614,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-27T13:39:24.037Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220766",
+                    "email": "1220766@isep.ipp.pt",
+                    "nome": "Guimaraes",
+                    "sobrenome": "1220766"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T19:29:29.663Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -32005,6 +32576,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:01:16.979Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -32566,7 +33152,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -32993,7 +33579,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Selecionada",
                 "estudante": {
                     "sigla": "1211199",
                     "email": "1211199@isep.ipp.pt",
@@ -33003,9 +33589,7 @@
                 "selecao": {
                     "data_selecao": "2024-12-12T18:24:31.487Z"
                 },
-                "candidatura": {
-                    "data_candidatura": "2024-12-13T19:44:20.905Z"
-                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -33125,7 +33709,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -33647,6 +34231,38 @@
                     "data_selecao": "2024-12-30T14:26:20.522Z"
                 },
                 "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220976",
+                    "email": "1220976@isep.ipp.pt",
+                    "nome": "Dias",
+                    "sobrenome": "1220976"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:25:24.014Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:31:35.902Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T13:32:13.528Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -34220,7 +34836,7 @@
     },
     {
         "_id": "6758704de56ffe29338e1025",
-        "estado": "Atribuída",
+        "estado": "Aceite",
         "organizacao": {
             "_id": "632300ae23808e47499a5872",
             "denominacao_curta": "Jscrambler",
@@ -34287,7 +34903,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Atribuída",
+                "estado": "Aceite",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -35093,7 +35709,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1221174",
                     "email": "1221174@isep.ipp.pt",
@@ -35103,7 +35719,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-12T21:14:11.366Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T14:24:26.739Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -35123,7 +35741,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1221288",
                     "email": "1221288@isep.ipp.pt",
@@ -35598,396 +36216,6 @@
         ]
     },
     {
-        "_id": "6759d0f2c2947d81e177987f",
-        "estado": "Publicada",
-        "organizacao": {
-            "_id": "6749ee99f5b5bc2dc17676b7",
-            "denominacao_curta": "OSF DIGITAL",
-            "denominacao_completa": "OSF DIGITAL PORTUGAL S.A."
-        },
-        "edicao": {
-            "_id": "66d6c10a359e4fcb2575f2a3",
-            "sigla_curso": "LEI",
-            "denominacao_curso": "Projeto/Estágio",
-            "sigla_uc": "PESTI",
-            "denominacao_uc": "Projeto/Estágio",
-            "ano_letivo": "2024-2025",
-            "periodo_letivo": "2º Semestre",
-            "ruc": {
-                "nome": "Elsa",
-                "sobrenome": "Gomes",
-                "email": "efg@isep.ipp.pt"
-            }
-        },
-        "submissao": {
-            "data_submissao": "2024-12-11T17:50:42.241Z",
-            "titulo": "Open Banking Innovation Hub",
-            "problema": "In the financial services sector, open banking enables the sharing of financial data between banks and third-party service providers through application programming interfaces (APIs). This system allows institutions to securely and electronically integrate financial information with other banks or authorized financial organizations, such as payment providers, lenders, and insurance companies. This project aims to leverage these APIs using MuleSoft, providing a ready-to-use solution that ensures seamless connectivity and integration.",
-            "objetivos": "1.\tDevelop a plug-and-play solution for Open Banking API integration.\n2.\tEnhance data security and customer insights.\n3.\tImprove financial management tools for institutions.\n4.\tStudent Learning Outcomes:\n        i. Gain hands-on experience with API integration using MuleSoft.\n        ii. Understand the principles of data security and customer data management.\n        iii. Learn about the financial technology landscape and innovative solutions.\n\n\n",
-            "proponente": {
-                "sigla": "CELIA.SANTOS@OSF.DIGITAL",
-                "email": "celia.santos@osf.digital",
-                "nome": "Célia",
-                "sobrenome": "Santos",
-                "organizacao": "OSF DIGITAL PORTUGAL S.A."
-            },
-            "estudante_pre_atribuido": {},
-            "data_inicio": "2025-02-24T00:00:00.000Z",
-            "data_fim": "2025-06-21T23:00:00.000Z",
-            "local": "Remote (possibility to meet in Porto office)"
-        },
-        "rejeicao": {},
-        "publicacao": {
-            "data_publicacao": "2024-12-17T15:57:04.926Z",
-            "publicador": {
-                "sigla": "EFG",
-                "email": "efg@isep.ipp.pt",
-                "nome": "Elsa",
-                "sobrenome": "Gomes"
-            }
-        },
-        "orientadores_interessados": [],
-        "candidaturas": [
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1220754",
-                    "email": "1220754@isep.ipp.pt",
-                    "nome": "Pereira",
-                    "sobrenome": "1220754"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-17T19:07:09.148Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-17T21:06:37.957Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1220829",
-                    "email": "1220829@isep.ipp.pt",
-                    "nome": "Ferreira",
-                    "sobrenome": "1220829"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-18T15:06:55.402Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-23T16:26:02.238Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1181024",
-                    "email": "1181024@isep.ipp.pt",
-                    "nome": "Diogo",
-                    "sobrenome": "1181024"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-19T08:51:30.320Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1221352",
-                    "email": "1221352@isep.ipp.pt",
-                    "nome": "Ribeiro",
-                    "sobrenome": "1221352"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-19T08:52:46.913Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-19T09:05:21.829Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1221675",
-                    "email": "1221675@isep.ipp.pt",
-                    "nome": "Silva",
-                    "sobrenome": "1221675"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-19T11:41:40.094Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-30T11:46:48.419Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1211981",
-                    "email": "1211981@isep.ipp.pt",
-                    "nome": "Vieira",
-                    "sobrenome": "1211981"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-19T19:42:26.626Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1220839",
-                    "email": "1220839@isep.ipp.pt",
-                    "nome": "Teixeira",
-                    "sobrenome": "1220839"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-20T16:19:39.679Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1211656",
-                    "email": "1211656@isep.ipp.pt",
-                    "nome": "Pina",
-                    "sobrenome": "1211656"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-21T00:40:12.243Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-21T00:40:15.406Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1210814",
-                    "email": "1210814@isep.ipp.pt",
-                    "nome": "Inês",
-                    "sobrenome": "Costa"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-25T19:08:26.522Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1220881",
-                    "email": "1220881@isep.ipp.pt",
-                    "nome": "Queiros",
-                    "sobrenome": "1220881"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-27T13:20:35.939Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-27T14:37:56.291Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221104",
-                    "email": "1221104@isep.ipp.pt",
-                    "nome": "Ferraz",
-                    "sobrenome": "1221104"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-29T16:52:49.312Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221289",
-                    "email": "1221289@isep.ipp.pt",
-                    "nome": "Botelho",
-                    "sobrenome": "1221289"
-                },
-                "selecao": {
-                    "data_selecao": "2025-01-02T02:19:36.986Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1220947",
-                    "email": "1220947@isep.ipp.pt",
-                    "nome": "Fonseca",
-                    "sobrenome": "1220947"
-                },
-                "selecao": {
-                    "data_selecao": "2025-01-02T16:49:27.190Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2025-01-02T18:17:34.172Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            }
-        ],
-        "atribuicao": {
-            "atribuidor": {},
-            "estudante": {}
-        },
-        "aprovacao": {},
-        "desaprovacao": {},
-        "cancelamento": {},
-        "acoesAutorizadas": [
-            "consultar",
-            "consultar_orientadores_interessados",
-            "selecionar",
-            "selecionar"
-        ]
-    },
-    {
-        "_id": "6759d19ac2947d81e17798e9",
-        "estado": "Publicada",
-        "organizacao": {
-            "_id": "6749ee99f5b5bc2dc17676b7",
-            "denominacao_curta": "OSF DIGITAL",
-            "denominacao_completa": "OSF DIGITAL PORTUGAL S.A."
-        },
-        "edicao": {
-            "_id": "66d6c10a359e4fcb2575f2a3",
-            "sigla_curso": "LEI",
-            "denominacao_curso": "Projeto/Estágio",
-            "sigla_uc": "PESTI",
-            "denominacao_uc": "Projeto/Estágio",
-            "ano_letivo": "2024-2025",
-            "periodo_letivo": "2º Semestre",
-            "ruc": {
-                "nome": "Elsa",
-                "sobrenome": "Gomes",
-                "email": "efg@isep.ipp.pt"
-            }
-        },
-        "submissao": {
-            "data_submissao": "2024-12-11T17:53:30.025Z",
-            "titulo": "Real-Time Log Monitoring with ELK",
-            "problema": "Organizations often face challenges in monitoring and analyzing MuleSoft logs effectively, which can lead to delayed issue resolution and suboptimal performance. This project integrates MuleSoft logs with the ELK stack to enable real-time log aggregation, visualization, and alerting, helping organizations proactively manage their applications.",
-            "objetivos": "1. Implement a reusable template for real-time log monitoring and analysis.\n2. Develop visualization dashboards for quick insights.\n3. Set up alerting mechanisms for proactive issue resolution.\n4. Student Learning Outcomes:\n     i. Acquire skills in integrating MuleSoft with the ELK stack.\n     ii. Learn to create and manage data visualization tools.\n     iii. Understand the importance of real-time data analysis and system reliability.\n",
-            "proponente": {
-                "sigla": "CELIA.SANTOS@OSF.DIGITAL",
-                "email": "celia.santos@osf.digital",
-                "nome": "Célia",
-                "sobrenome": "Santos",
-                "organizacao": "OSF DIGITAL PORTUGAL S.A."
-            },
-            "estudante_pre_atribuido": {},
-            "data_inicio": "2025-02-24T00:00:00.000Z",
-            "data_fim": "2025-06-22T23:00:00.000Z",
-            "local": "Remote with possibility to meet in Porto's office if needed"
-        },
-        "rejeicao": {},
-        "publicacao": {
-            "data_publicacao": "2024-12-17T15:57:13.909Z",
-            "publicador": {
-                "sigla": "EFG",
-                "email": "efg@isep.ipp.pt",
-                "nome": "Elsa",
-                "sobrenome": "Gomes"
-            }
-        },
-        "orientadores_interessados": [],
-        "candidaturas": [
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1220822",
-                    "email": "1220822@isep.ipp.pt",
-                    "nome": "Jesus",
-                    "sobrenome": "1220822"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-18T23:11:16.577Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-18T23:11:26.091Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Candidatada",
-                "estudante": {
-                    "sigla": "1221675",
-                    "email": "1221675@isep.ipp.pt",
-                    "nome": "Silva",
-                    "sobrenome": "1221675"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-19T11:41:55.842Z"
-                },
-                "candidatura": {
-                    "data_candidatura": "2024-12-30T11:46:58.478Z"
-                },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1210814",
-                    "email": "1210814@isep.ipp.pt",
-                    "nome": "Inês",
-                    "sobrenome": "Costa"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-25T19:08:27.221Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            }
-        ],
-        "atribuicao": {
-            "atribuidor": {},
-            "estudante": {}
-        },
-        "aprovacao": {},
-        "desaprovacao": {},
-        "cancelamento": {},
-        "acoesAutorizadas": [
-            "consultar",
-            "consultar_orientadores_interessados",
-            "selecionar",
-            "selecionar"
-        ]
-    },
-    {
         "_id": "6759d213c2947d81e1779953",
         "estado": "Publicada",
         "organizacao": {
@@ -36216,6 +36444,38 @@
                 "candidatura": {
                     "data_candidatura": "2025-01-02T16:56:48.538Z"
                 },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:43:02.757Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T15:43:12.111Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220950",
+                    "email": "1220950@isep.ipp.pt",
+                    "nome": "Martins",
+                    "sobrenome": "1220950"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T20:43:03.746Z"
+                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -36994,7 +37254,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -38076,6 +38336,36 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221289",
+                    "email": "1221289@isep.ipp.pt",
+                    "nome": "Botelho",
+                    "sobrenome": "1221289"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T14:48:48.976Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T22:52:02.639Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -38545,6 +38835,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T22:52:04.301Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -38658,6 +38963,21 @@
                 "candidatura": {
                     "data_candidatura": "2024-12-18T19:50:57.801Z"
                 },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T22:51:19.770Z"
+                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -39453,7 +39773,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Retirada",
                 "estudante": {
                     "sigla": "1220754",
                     "email": "1220754@isep.ipp.pt",
@@ -39866,6 +40186,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1210803",
+                    "email": "1210803@isep.ipp.pt",
+                    "nome": "Teixeira",
+                    "sobrenome": "1210803"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T16:38:17.897Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T16:38:24.852Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -40212,6 +40549,21 @@
                 "candidatura": {
                     "data_candidatura": "2025-01-02T11:16:10.267Z"
                 },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:41:39.472Z"
+                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -40569,7 +40921,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1221189",
                     "email": "1221189@isep.ipp.pt",
@@ -40579,7 +40931,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-17T12:40:46.626Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T14:48:01.342Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -42138,6 +42492,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1050049",
+                    "email": "1050049@isep.ipp.pt",
+                    "nome": "Paulo",
+                    "sobrenome": "1050049"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T18:53:35.707Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -42869,6 +43238,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:34:11.653Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:35:07.232Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -42997,6 +43383,38 @@
                 "candidatura": {
                     "data_candidatura": "2024-12-27T14:44:04.751Z"
                 },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:41:33.784Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T15:41:42.712Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220950",
+                    "email": "1220950@isep.ipp.pt",
+                    "nome": "Martins",
+                    "sobrenome": "1220950"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T20:35:14.680Z"
+                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -43292,6 +43710,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-28T15:48:11.003Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T22:48:44.189Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -43654,6 +44087,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T20:28:05.835Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -43914,6 +44362,36 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-30T14:27:39.828Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1050049",
+                    "email": "1050049@isep.ipp.pt",
+                    "nome": "Paulo",
+                    "sobrenome": "1050049"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T18:53:04.375Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T20:28:09.106Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -44524,6 +45002,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T20:28:06.342Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -45067,6 +45560,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:22:54.643Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -45197,6 +45705,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:36:10.461Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:31.275Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -45295,6 +45820,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:36:21.301Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:21.981Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -45389,6 +45931,38 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-23T09:11:13.136Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:36:56.557Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:01.654Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:21:48.081Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -45519,6 +46093,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-30T15:08:14.112Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220890",
+                    "email": "1220890@isep.ipp.pt",
+                    "nome": "Moreira",
+                    "sobrenome": "1220890"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T22:47:59.840Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -45665,6 +46254,40 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-23T09:49:40.160Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211314",
+                    "email": "1211314@isep.ipp.pt",
+                    "nome": "Durães",
+                    "sobrenome": "1211314"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:06:46.920Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T15:06:51.681Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:36:51.553Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:37:13.109Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -45899,6 +46522,21 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220761",
+                    "email": "1220761@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1220761"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T01:42:09.237Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -46021,6 +46659,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-27T14:49:50.107Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T16:24:33.522Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T16:24:36.740Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -46193,7 +46848,23 @@
             }
         },
         "orientadores_interessados": [],
-        "candidaturas": [],
+        "candidaturas": [
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:32:58.763Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
         "atribuicao": {
             "atribuidor": {},
             "estudante": {}
@@ -46319,6 +46990,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-27T14:49:59.842Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T16:21:35.254Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T16:23:32.808Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -46468,6 +47156,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-28T16:11:53.927Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211225",
+                    "email": "1211225@isep.ipp.pt",
+                    "nome": "Costa",
+                    "sobrenome": "1211225"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T11:48:43.129Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T11:49:07.933Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -46826,7 +47531,7 @@
                     "data_selecao": "2024-12-22T15:26:02.468Z"
                 },
                 "candidatura": {
-                    "data_candidatura": "2024-12-22T15:26:23.272Z"
+                    "data_candidatura": "2025-01-05T19:33:57.669Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -46860,6 +47565,21 @@
                 "candidatura": {
                     "data_candidatura": "2024-12-23T16:23:29.888Z"
                 },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221289",
+                    "email": "1221289@isep.ipp.pt",
+                    "nome": "Botelho",
+                    "sobrenome": "1221289"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T14:53:37.089Z"
+                },
+                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -46974,6 +47694,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-27T14:51:15.775Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:38:10.327Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:39:05.335Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -47154,6 +47891,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:38:19.499Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:38:57.896Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -47220,7 +47974,25 @@
             }
         },
         "orientadores_interessados": [],
-        "candidaturas": [],
+        "candidaturas": [
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:38:23.683Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:38:50.265Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
         "atribuicao": {
             "atribuidor": {},
             "estudante": {}
@@ -47311,6 +48083,36 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-25T19:10:05.077Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1170570",
+                    "email": "1170570@isep.ipp.pt",
+                    "nome": "Isaías",
+                    "sobrenome": "1170570"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:30:24.071Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:41:39.238Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -47709,6 +48511,21 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1170570",
+                    "email": "1170570@isep.ipp.pt",
+                    "nome": "Isaías",
+                    "sobrenome": "1170570"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:33:54.891Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -48093,6 +48910,185 @@
         ]
     },
     {
+        "_id": "67770db82b3380a66e2f5a33",
+        "estado": "Publicada",
+        "organizacao": {
+            "_id": "6386241b56350c4bd2dfb51d",
+            "denominacao_curta": "Fashable",
+            "denominacao_completa": "Fashable, Lda"
+        },
+        "edicao": {
+            "_id": "66d6c10a359e4fcb2575f2a3",
+            "sigla_curso": "LEI",
+            "denominacao_curso": "Projeto/Estágio",
+            "sigla_uc": "PESTI",
+            "denominacao_uc": "Projeto/Estágio",
+            "ano_letivo": "2024-2025",
+            "periodo_letivo": "2º Semestre",
+            "ruc": {
+                "nome": "Elsa",
+                "sobrenome": "Gomes",
+                "email": "efg@isep.ipp.pt"
+            }
+        },
+        "submissao": {
+            "data_submissao": "2025-01-02T22:05:44.905Z",
+            "titulo": "FASHABLE - GENERATIVE AI FOR FASHION",
+            "problema": "The work to be carried out under this project proposal focuses on the development and integration of innovative generative AI solutions to enhance Fashable's digital presence and customer engagement. \n\nThis project can include the creation of a new personalized component or tool, the training and fine-tune of a AI model, the implementation of an API, and the development of a web/mobile application that will allow customers to access Fashable's services more conveniently. \n\nClose collaboration with the global research and marketing teams will be essential to ensure seamless integration and project success.\n",
+            "objetivos": "The present project aims to achieve the following general objectives:\nInnovative AI Solutions: Integrate cutting-edge generative AI models to enhance Fashable's digital presence and customer engagement.\n\nCustomer Experience Enhancement: Use AI technology to create personalized and immersive customer experiences, improving satisfaction and loyalty.\n\nEfficiency and Automation: Streamline and automate various processes within the fashion industry using AI, reducing time and resource consumption.\n\nData-Driven Insights: Leverage AI to analyze customer data and market trends, providing actionable insights for strategic decision-making.\n\nSustainable Practices: Promote sustainability by using AI to optimize production processes and reduce waste in the fashion industry.\n",
+            "proponente": {
+                "sigla": "ribas@fashable.ai",
+                "email": "ribas@fashable.ai",
+                "nome": "Orlando",
+                "sobrenome": "Ribas Fernandes",
+                "organizacao": "Fashable, Lda"
+            },
+            "estudante_pre_atribuido": {},
+            "data_inicio": "2025-02-24T00:00:00.000Z",
+            "data_fim": "2025-06-23T23:00:00.000Z",
+            "local": "Remote"
+        },
+        "rejeicao": {},
+        "publicacao": {
+            "data_publicacao": "2025-01-03T11:00:08.289Z",
+            "publicador": {
+                "sigla": "EFG",
+                "email": "efg@isep.ipp.pt",
+                "nome": "Elsa",
+                "sobrenome": "Gomes"
+            }
+        },
+        "orientadores_interessados": [],
+        "candidaturas": [
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221189",
+                    "email": "1221189@isep.ipp.pt",
+                    "nome": "Lopes",
+                    "sobrenome": "1221189"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T14:44:23.989Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1211314",
+                    "email": "1211314@isep.ipp.pt",
+                    "nome": "Durães",
+                    "sobrenome": "1211314"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T14:48:18.089Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
+        "atribuicao": {
+            "atribuidor": {},
+            "estudante": {}
+        },
+        "aprovacao": {},
+        "desaprovacao": {},
+        "cancelamento": {},
+        "acoesAutorizadas": [
+            "consultar",
+            "consultar_orientadores_interessados",
+            "selecionar",
+            "selecionar"
+        ]
+    },
+    {
+        "_id": "6777c0892b3380a66e389c0c",
+        "estado": "Publicada",
+        "organizacao": {
+            "_id": "6377888b9e33bc7da4a0d641",
+            "denominacao_curta": "Where2Retail",
+            "denominacao_completa": "Where2retail, Lda"
+        },
+        "edicao": {
+            "_id": "66d6c10a359e4fcb2575f2a3",
+            "sigla_curso": "LEI",
+            "denominacao_curso": "Projeto/Estágio",
+            "sigla_uc": "PESTI",
+            "denominacao_uc": "Projeto/Estágio",
+            "ano_letivo": "2024-2025",
+            "periodo_letivo": "2º Semestre",
+            "ruc": {
+                "nome": "Elsa",
+                "sobrenome": "Gomes",
+                "email": "efg@isep.ipp.pt"
+            }
+        },
+        "submissao": {
+            "data_submissao": "2025-01-03T10:48:41.034Z",
+            "titulo": "SuiteApps Oracle NetSuite #3",
+            "problema": "Oracle NetSuite é o #1 ERP Cloud a nível mundial (www.netsuite.com). Indústrias (Retalho, Software, Serviços, Manufactoring, etc), ou mercado específicos (mercado Português, entre outros), têm requisitos funcionais específicos  que não estão totalmente endereçados pelas funcionalidades standard deste software internacional, ou têm necessidade de integração com outras soluções de software externas, mas que podem ser desenvolvidos utilizando o framework de desenvolvimento que faz parte da solução NetSuite, e que são disponibilizadas sobre a forma de SuiteApps, nomeadamente no market place https://www.suiteapp.com/.",
+            "objetivos": "Com base num conjunto de requisitos de uma indústria ou mercado, analisar, desenhar, desenvolver e testar uma SuiteApp que enderece esses requisitos e permita estender a funcionalidade standard NetSuite, ou de integração com soluções de software externas.",
+            "proponente": {
+                "sigla": "jose.ribas@where2retail.com",
+                "email": "jose.ribas@where2retail.com",
+                "nome": "José",
+                "sobrenome": "Ribas",
+                "organizacao": "Where2retail, Lda"
+            },
+            "estudante_pre_atribuido": {},
+            "data_inicio": "2025-03-03T00:00:00.000Z",
+            "data_fim": "2025-07-30T23:00:00.000Z",
+            "local": "UPTEC Rua Alfredo Allen, 455 4200-135 PORTO"
+        },
+        "rejeicao": {},
+        "publicacao": {
+            "data_publicacao": "2025-01-03T10:59:38.170Z",
+            "publicador": {
+                "sigla": "EFG",
+                "email": "efg@isep.ipp.pt",
+                "nome": "Elsa",
+                "sobrenome": "Gomes"
+            }
+        },
+        "orientadores_interessados": [],
+        "candidaturas": [
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1201427",
+                    "email": "1201427@isep.ipp.pt",
+                    "nome": "Nuno",
+                    "sobrenome": "Alves"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T00:31:21.844Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T08:53:04.896Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
+        "atribuicao": {
+            "atribuidor": {},
+            "estudante": {}
+        },
+        "aprovacao": {},
+        "desaprovacao": {},
+        "cancelamento": {},
+        "acoesAutorizadas": [
+            "consultar",
+            "consultar_orientadores_interessados",
+            "selecionar",
+            "selecionar"
+        ]
+    },
+    {
         "_id": "673378a6d4bb152635ca8de7",
         "estado": "Publicada",
         "organizacao": {
@@ -48206,21 +49202,6 @@
                 "candidatura": {
                     "data_candidatura": "2024-12-15T17:28:53.091Z"
                 },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1220950",
-                    "email": "1220950@isep.ipp.pt",
-                    "nome": "Martins",
-                    "sobrenome": "1220950"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-14T00:46:51.364Z"
-                },
-                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -48649,6 +49630,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211252",
+                    "email": "1211252@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211252"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T16:49:07.775Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T16:51:43.099Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -48667,7 +49665,7 @@
     },
     {
         "_id": "67377dce1a542d5560f2f323",
-        "estado": "Publicada",
+        "estado": "Atribuída",
         "organizacao": {
             "_id": "632dabbaa717453c05e20bbd",
             "denominacao_curta": "SISTRADE",
@@ -49056,7 +50054,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Candidatada",
+                "estado": "Atribuída",
                 "estudante": {
                     "sigla": "1191059",
                     "email": "1191059@isep.ipp.pt",
@@ -49070,12 +50068,31 @@
                     "data_candidatura": "2025-01-02T17:35:41.038Z"
                 },
                 "rejeicao": {},
-                "atribuicao": {}
+                "atribuicao": {
+                    "data_atribuicao": "2025-01-04T10:56:00.860Z",
+                    "atribuidor": {
+                        "sigla": "SOUSA.RIBEIRO@SISTRADE.COM",
+                        "email": "sousa.ribeiro@sistrade.com",
+                        "nome": "Sousa",
+                        "sobrenome": "Ribeiro"
+                    }
+                }
             }
         ],
         "atribuicao": {
-            "atribuidor": {},
-            "estudante": {}
+            "data_atribuicao": "2025-01-04T10:56:00.860Z",
+            "atribuidor": {
+                "sigla": "SOUSA.RIBEIRO@SISTRADE.COM",
+                "email": "sousa.ribeiro@sistrade.com",
+                "nome": "Sousa",
+                "sobrenome": "Ribeiro"
+            },
+            "estudante": {
+                "sigla": "1191059",
+                "email": "1191059@isep.ipp.pt",
+                "nome": "Sérgio",
+                "sobrenome": "Balio"
+            }
         },
         "aprovacao": {},
         "desaprovacao": {},
@@ -49890,21 +50907,6 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-29T18:16:19.904Z"
-                },
-                "candidatura": {},
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221289",
-                    "email": "1221289@isep.ipp.pt",
-                    "nome": "Botelho",
-                    "sobrenome": "1221289"
-                },
-                "selecao": {
-                    "data_selecao": "2025-01-02T02:16:42.069Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -50823,6 +51825,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2025-01-02T16:51:37.328Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:14:58.624Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -52424,6 +53441,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:52:13.259Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T14:20:14.717Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -53389,21 +54423,6 @@
                 "candidatura": {
                     "data_candidatura": "2024-12-16T22:29:46.709Z"
                 },
-                "rejeicao": {},
-                "atribuicao": {}
-            },
-            {
-                "estado": "Selecionada",
-                "estudante": {
-                    "sigla": "1221289",
-                    "email": "1221289@isep.ipp.pt",
-                    "nome": "Botelho",
-                    "sobrenome": "1221289"
-                },
-                "selecao": {
-                    "data_selecao": "2024-12-13T21:25:51.799Z"
-                },
-                "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -56147,7 +57166,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1220950",
                     "email": "1220950@isep.ipp.pt",
@@ -56157,7 +57176,9 @@
                 "selecao": {
                     "data_selecao": "2025-01-02T17:08:02.713Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T21:22:34.724Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             },
@@ -56174,6 +57195,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2025-01-03T00:27:13.646Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:17:42.433Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:18:01.334Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -56748,7 +57786,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1220950",
                     "email": "1220950@isep.ipp.pt",
@@ -56758,7 +57796,26 @@
                 "selecao": {
                     "data_selecao": "2025-01-02T17:08:06.696Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T21:21:50.383Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221738",
+                    "email": "1221738@isep.ipp.pt",
+                    "nome": "Tavares",
+                    "sobrenome": "1221738"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T23:17:46.232Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:17:50.091Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -58025,6 +59082,23 @@
                 },
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:43:42.929Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T13:43:47.356Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -58324,6 +59398,21 @@
                 },
                 "selecao": {
                     "data_selecao": "2024-12-27T22:09:22.858Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221264",
+                    "email": "1221264@isep.ipp.pt",
+                    "nome": "Azevedo",
+                    "sobrenome": "1221264"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-05T13:56:12.339Z"
                 },
                 "candidatura": {},
                 "rejeicao": {},
@@ -58967,6 +60056,40 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:28:34.278Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T15:29:16.579Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:42:16.063Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T13:42:20.849Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -59455,7 +60578,7 @@
                 "atribuicao": {}
             },
             {
-                "estado": "Selecionada",
+                "estado": "Candidatada",
                 "estudante": {
                     "sigla": "1221189",
                     "email": "1221189@isep.ipp.pt",
@@ -59465,7 +60588,9 @@
                 "selecao": {
                     "data_selecao": "2024-12-30T17:50:37.597Z"
                 },
-                "candidatura": {},
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T14:47:47.670Z"
+                },
                 "rejeicao": {},
                 "atribuicao": {}
             }
@@ -60647,6 +61772,23 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220698",
+                    "email": "1220698@isep.ipp.pt",
+                    "nome": "Diniz",
+                    "sobrenome": "1220698"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T13:34:25.007Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T13:34:28.679Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -60878,6 +62020,432 @@
             "consultar_orientadores_interessados",
             "descandidatar",
             "descandidatar"
+        ]
+    },
+    {
+        "_id": "6759d0f2c2947d81e177987f",
+        "estado": "Publicada",
+        "organizacao": {
+            "_id": "6749ee99f5b5bc2dc17676b7",
+            "denominacao_curta": "OSF DIGITAL",
+            "denominacao_completa": "OSF DIGITAL PORTUGAL S.A."
+        },
+        "edicao": {
+            "_id": "66d6c10a359e4fcb2575f2a3",
+            "sigla_curso": "LEI",
+            "denominacao_curso": "Projeto/Estágio",
+            "sigla_uc": "PESTI",
+            "denominacao_uc": "Projeto/Estágio",
+            "ano_letivo": "2024-2025",
+            "periodo_letivo": "2º Semestre",
+            "ruc": {
+                "nome": "Elsa",
+                "sobrenome": "Gomes",
+                "email": "efg@isep.ipp.pt"
+            }
+        },
+        "submissao": {
+            "data_submissao": "2024-12-11T17:50:42.241Z",
+            "titulo": "Open Banking Innovation Hub",
+            "problema": "In the financial services sector, open banking enables the sharing of financial data between banks and third-party service providers through application programming interfaces (APIs). This system allows institutions to securely and electronically integrate financial information with other banks or authorized financial organizations, such as payment providers, lenders, and insurance companies. This project aims to leverage these APIs using MuleSoft, providing a ready-to-use solution that ensures seamless connectivity and integration.",
+            "objetivos": "1.\tDevelop a plug-and-play solution for Open Banking API integration.\n2.\tEnhance data security and customer insights.\n3.\tImprove financial management tools for institutions.\n4.\tStudent Learning Outcomes:\n        i. Gain hands-on experience with API integration using MuleSoft.\n        ii. Understand the principles of data security and customer data management.\n        iii. Learn about the financial technology landscape and innovative solutions.\n\n\n",
+            "proponente": {
+                "sigla": "CELIA.SANTOS@OSF.DIGITAL",
+                "email": "celia.santos@osf.digital",
+                "nome": "Célia",
+                "sobrenome": "Santos",
+                "organizacao": "OSF DIGITAL PORTUGAL S.A."
+            },
+            "estudante_pre_atribuido": {},
+            "data_inicio": "2025-02-24T00:00:00.000Z",
+            "data_fim": "2025-06-21T23:00:00.000Z",
+            "local": "Remote (possibility to meet in Porto office)"
+        },
+        "rejeicao": {},
+        "publicacao": {
+            "data_publicacao": "2024-12-17T15:57:04.926Z",
+            "publicador": {
+                "sigla": "EFG",
+                "email": "efg@isep.ipp.pt",
+                "nome": "Elsa",
+                "sobrenome": "Gomes"
+            }
+        },
+        "orientadores_interessados": [],
+        "candidaturas": [
+            {
+                "estado": "Retirada",
+                "estudante": {
+                    "sigla": "1220754",
+                    "email": "1220754@isep.ipp.pt",
+                    "nome": "Pereira",
+                    "sobrenome": "1220754"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-17T19:07:09.148Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-17T21:06:37.957Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220829",
+                    "email": "1220829@isep.ipp.pt",
+                    "nome": "Ferreira",
+                    "sobrenome": "1220829"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-18T15:06:55.402Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-23T16:26:02.238Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1181024",
+                    "email": "1181024@isep.ipp.pt",
+                    "nome": "Diogo",
+                    "sobrenome": "1181024"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-19T08:51:30.320Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221352",
+                    "email": "1221352@isep.ipp.pt",
+                    "nome": "Ribeiro",
+                    "sobrenome": "1221352"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-19T08:52:46.913Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-19T09:05:21.829Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221675",
+                    "email": "1221675@isep.ipp.pt",
+                    "nome": "Silva",
+                    "sobrenome": "1221675"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-19T11:41:40.094Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-30T11:46:48.419Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1211981",
+                    "email": "1211981@isep.ipp.pt",
+                    "nome": "Vieira",
+                    "sobrenome": "1211981"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-19T19:42:26.626Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1220839",
+                    "email": "1220839@isep.ipp.pt",
+                    "nome": "Teixeira",
+                    "sobrenome": "1220839"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-20T16:19:39.679Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211656",
+                    "email": "1211656@isep.ipp.pt",
+                    "nome": "Pina",
+                    "sobrenome": "1211656"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-21T00:40:12.243Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-21T00:40:15.406Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1210814",
+                    "email": "1210814@isep.ipp.pt",
+                    "nome": "Inês",
+                    "sobrenome": "Costa"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-25T19:08:26.522Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220881",
+                    "email": "1220881@isep.ipp.pt",
+                    "nome": "Queiros",
+                    "sobrenome": "1220881"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-27T13:20:35.939Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-27T14:37:56.291Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221104",
+                    "email": "1221104@isep.ipp.pt",
+                    "nome": "Ferraz",
+                    "sobrenome": "1221104"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-29T16:52:49.312Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221289",
+                    "email": "1221289@isep.ipp.pt",
+                    "nome": "Botelho",
+                    "sobrenome": "1221289"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-02T02:19:36.986Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T13:13:34.609Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220947",
+                    "email": "1220947@isep.ipp.pt",
+                    "nome": "Fonseca",
+                    "sobrenome": "1220947"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-02T16:49:27.190Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-02T18:17:34.172Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221416",
+                    "email": "1221416@isep.ipp.pt",
+                    "nome": "Silva",
+                    "sobrenome": "1221416"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T23:52:28.771Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-05T23:18:59.268Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
+        "atribuicao": {
+            "atribuidor": {},
+            "estudante": {}
+        },
+        "aprovacao": {},
+        "desaprovacao": {},
+        "cancelamento": {},
+        "acoesAutorizadas": [
+            "consultar",
+            "consultar_orientadores_interessados",
+            "descandidatar",
+            "descandidatar"
+        ]
+    },
+    {
+        "_id": "6759d19ac2947d81e17798e9",
+        "estado": "Publicada",
+        "organizacao": {
+            "_id": "6749ee99f5b5bc2dc17676b7",
+            "denominacao_curta": "OSF DIGITAL",
+            "denominacao_completa": "OSF DIGITAL PORTUGAL S.A."
+        },
+        "edicao": {
+            "_id": "66d6c10a359e4fcb2575f2a3",
+            "sigla_curso": "LEI",
+            "denominacao_curso": "Projeto/Estágio",
+            "sigla_uc": "PESTI",
+            "denominacao_uc": "Projeto/Estágio",
+            "ano_letivo": "2024-2025",
+            "periodo_letivo": "2º Semestre",
+            "ruc": {
+                "nome": "Elsa",
+                "sobrenome": "Gomes",
+                "email": "efg@isep.ipp.pt"
+            }
+        },
+        "submissao": {
+            "data_submissao": "2024-12-11T17:53:30.025Z",
+            "titulo": "Real-Time Log Monitoring with ELK",
+            "problema": "Organizations often face challenges in monitoring and analyzing MuleSoft logs effectively, which can lead to delayed issue resolution and suboptimal performance. This project integrates MuleSoft logs with the ELK stack to enable real-time log aggregation, visualization, and alerting, helping organizations proactively manage their applications.",
+            "objetivos": "1. Implement a reusable template for real-time log monitoring and analysis.\n2. Develop visualization dashboards for quick insights.\n3. Set up alerting mechanisms for proactive issue resolution.\n4. Student Learning Outcomes:\n     i. Acquire skills in integrating MuleSoft with the ELK stack.\n     ii. Learn to create and manage data visualization tools.\n     iii. Understand the importance of real-time data analysis and system reliability.\n",
+            "proponente": {
+                "sigla": "CELIA.SANTOS@OSF.DIGITAL",
+                "email": "celia.santos@osf.digital",
+                "nome": "Célia",
+                "sobrenome": "Santos",
+                "organizacao": "OSF DIGITAL PORTUGAL S.A."
+            },
+            "estudante_pre_atribuido": {},
+            "data_inicio": "2025-02-24T00:00:00.000Z",
+            "data_fim": "2025-06-22T23:00:00.000Z",
+            "local": "Remote with possibility to meet in Porto's office if needed"
+        },
+        "rejeicao": {},
+        "publicacao": {
+            "data_publicacao": "2024-12-17T15:57:13.909Z",
+            "publicador": {
+                "sigla": "EFG",
+                "email": "efg@isep.ipp.pt",
+                "nome": "Elsa",
+                "sobrenome": "Gomes"
+            }
+        },
+        "orientadores_interessados": [],
+        "candidaturas": [
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220822",
+                    "email": "1220822@isep.ipp.pt",
+                    "nome": "Jesus",
+                    "sobrenome": "1220822"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-18T23:11:16.577Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-18T23:11:26.091Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1221675",
+                    "email": "1221675@isep.ipp.pt",
+                    "nome": "Silva",
+                    "sobrenome": "1221675"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-19T11:41:55.842Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2024-12-30T11:46:58.478Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1210814",
+                    "email": "1210814@isep.ipp.pt",
+                    "nome": "Inês",
+                    "sobrenome": "Costa"
+                },
+                "selecao": {
+                    "data_selecao": "2024-12-25T19:08:27.221Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221416",
+                    "email": "1221416@isep.ipp.pt",
+                    "nome": "Silva",
+                    "sobrenome": "1221416"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T23:50:07.378Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
+        "atribuicao": {
+            "atribuidor": {},
+            "estudante": {}
+        },
+        "aprovacao": {},
+        "desaprovacao": {},
+        "cancelamento": {},
+        "acoesAutorizadas": [
+            "consultar",
+            "consultar_orientadores_interessados",
+            "desselecionar",
+            "candidatar",
+            "desselecionar",
+            "desselecionar"
         ]
     },
     {
@@ -61415,6 +62983,23 @@
                 },
                 "candidatura": {
                     "data_candidatura": "2024-12-29T23:43:25.528Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1171311",
+                    "email": "1171311@isep.ipp.pt",
+                    "nome": "Henrique",
+                    "sobrenome": "Silva"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T15:55:16.534Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T15:55:23.251Z"
                 },
                 "rejeicao": {},
                 "atribuicao": {}
@@ -62152,6 +63737,38 @@
                 "candidatura": {},
                 "rejeicao": {},
                 "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1211314",
+                    "email": "1211314@isep.ipp.pt",
+                    "nome": "Durães",
+                    "sobrenome": "1211314"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T14:50:32.784Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T14:50:40.930Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1050049",
+                    "email": "1050049@isep.ipp.pt",
+                    "nome": "Paulo",
+                    "sobrenome": "1050049"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:43:42.666Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
             }
         ],
         "atribuicao": {
@@ -62166,6 +63783,123 @@
             "consultar_orientadores_interessados",
             "descandidatar",
             "descandidatar"
+        ]
+    },
+    {
+        "_id": "6778201b39bbc22ca6cf7f5b",
+        "estado": "Publicada",
+        "organizacao": {
+            "_id": "6329cac76dce185cbba0d27a",
+            "denominacao_curta": "GILT",
+            "denominacao_completa": "Games Interaction & Learning Technologies"
+        },
+        "edicao": {
+            "_id": "66d6c10a359e4fcb2575f2a3",
+            "sigla_curso": "LEI",
+            "denominacao_curso": "Projeto/Estágio",
+            "sigla_uc": "PESTI",
+            "denominacao_uc": "Projeto/Estágio",
+            "ano_letivo": "2024-2025",
+            "periodo_letivo": "2º Semestre",
+            "ruc": {
+                "nome": "Elsa",
+                "sobrenome": "Gomes",
+                "email": "efg@isep.ipp.pt"
+            }
+        },
+        "submissao": {
+            "data_submissao": "2025-01-03T17:36:27.560Z",
+            "titulo": "Website multifuncional para uma Freelancer de Moda: Proposta de Redesign",
+            "problema": "Sou freelancer na área da moda e, ao longo da minha carreira, já reestruturei o meu site duas vezes, mas continuo a sentir que ele não reflete plenamente as minhas necessidades profissionais e a experiência que quero proporcionar aos meus clientes. Apesar de seguir as minhas brand guidelines (cores, tipos de letra e identidade visual), o site atual não atinge todo o seu potencial.  \nPreciso de um website que funcione como: \n•\tUm portfólio profissional, onde possa apresentar de forma clara e apelativa o meu trabalho; \n•\tUma plataforma fácil de navegar, onde potenciais clientes consigam entrar rapidamente em contacto comigo, incluindo através de ferramentas como o Calendly; \n•\tUma loja online funcional para venda de produtos digitais, algo que quero implementar para expandir os meus serviços e oferecer valor adicional aos meus clientes e outros profissionais. \nAlém disso, quero que o site tenha um design visualmente apelativo e que não seja básico ou genérico. Procuro um equilíbrio entre funcionalidade, profissionalismo e diversão — algo que cative visualmente os visitantes, transmita criatividade e, ao mesmo tempo, seja prático e eficiente. \n",
+            "objetivos": "•\tRedesenhar o meu website mantendo a plataforma Wix e respeitando as minhas brand guidelines; \n•\tCriar um design apelativo, funcional e profissional que reflita a minha identidade como designer de moda; \n•\tTornar o site visualmente cativante e criativo, indo além de soluções básicas, sem comprometer a funcionalidade; \n•\tOrganizar e otimizar o meu portfólio para facilitar a apresentação do meu trabalho; \n•\tSimplificar a navegação e o processo de contacto, integrando e melhorando ferramentas como o Calendly para agendamento de reuniões; \n•\tImplementar uma loja online que permita a venda de produtos digitais de forma eficiente, com um fluxo de compras intuitivo; \n•\tGarantir que o site seja responsivo e ofereça uma excelente experiência de utilizador em diferentes dispositivos. \n",
+            "proponente": {
+                "sigla": "NFE",
+                "email": "NFE@ISEP.IPP.PT",
+                "nome": "Nuno",
+                "sobrenome": "Escudeiro",
+                "organizacao": "Games Interaction & Learning Technologies"
+            },
+            "estudante_pre_atribuido": {},
+            "data_inicio": "2025-03-03T00:00:00.000Z",
+            "data_fim": "2025-06-12T23:00:00.000Z",
+            "local": "O projeto será desenvolvido no grupo de investigação do Instituto Superior de Engenharia do Porto (ISEP)."
+        },
+        "rejeicao": {},
+        "publicacao": {
+            "data_publicacao": "2025-01-03T17:49:07.405Z",
+            "publicador": {
+                "sigla": "EFG",
+                "email": "efg@isep.ipp.pt",
+                "nome": "Elsa",
+                "sobrenome": "Gomes"
+            }
+        },
+        "orientadores_interessados": [],
+        "candidaturas": [
+            {
+                "estado": "Selecionada",
+                "estudante": {
+                    "sigla": "1221416",
+                    "email": "1221416@isep.ipp.pt",
+                    "nome": "Silva",
+                    "sobrenome": "1221416"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T21:59:37.427Z"
+                },
+                "candidatura": {},
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1121200",
+                    "email": "1121200@isep.ipp.pt",
+                    "nome": "Rui",
+                    "sobrenome": "1121200"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-03T22:38:29.601Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-03T22:38:42.305Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            },
+            {
+                "estado": "Candidatada",
+                "estudante": {
+                    "sigla": "1220874",
+                    "email": "1220874@isep.ipp.pt",
+                    "nome": "Dias",
+                    "sobrenome": "1220874"
+                },
+                "selecao": {
+                    "data_selecao": "2025-01-04T11:28:41.586Z"
+                },
+                "candidatura": {
+                    "data_candidatura": "2025-01-04T11:31:05.474Z"
+                },
+                "rejeicao": {},
+                "atribuicao": {}
+            }
+        ],
+        "atribuicao": {
+            "atribuidor": {},
+            "estudante": {}
+        },
+        "aprovacao": {},
+        "desaprovacao": {},
+        "cancelamento": {},
+        "acoesAutorizadas": [
+            "consultar",
+            "consultar_orientadores_interessados",
+            "desselecionar",
+            "candidatar",
+            "desselecionar",
+            "desselecionar"
         ]
     }
 ]

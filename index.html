@@ -13,9 +13,6 @@
     <link href="https://unpkg.com/bootstrap-table@1.21.2/dist/bootstrap-table.min.css" rel="stylesheet">
     
     <style>
-        body {
-            margin: 20px;
-        }
         .popup {
             display: none;
             position: fixed;
@@ -42,10 +39,24 @@
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 999;
         }
+
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        
+        footer {
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="flex: 1;">
         <h1 class="my-4">Propostas PESTI</h1>
         <div class="d-flex flex-row gap-2">
             <a href="index.html" class="btn btn-primary">Todas as Propostas</a>
@@ -55,7 +66,9 @@
         
         <div class="mb-4 d-flex flex-row gap-2">
             <button class="btn btn-dark flex-shrink-0" onclick="openPastePopup()">Copiar e Colar o Pedido</button>
-            <input type="file" id="fileInput" accept="application/json" class="form-control flex-grow-1">
+            <div class="flex-grow-1">
+                <input type="file" id="fileInput" accept="application/json" class="form-control">
+            </div>
         </div>
         
         <div class="overlay" id="pasteOverlay"></div>
@@ -91,6 +104,7 @@
         </div>
 
         
+        <section id="totalPropostas" class="mt-4"></section>
         <table id="propostasTable" 
                class="table table-striped"
                data-toggle="table"
@@ -114,6 +128,17 @@
             <tbody></tbody>
         </table>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2025 Desenvolvido pelo Boda.</p>
+            <!-- O CARALHO QUE TA FODAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+            <div class="justify-content-end">
+                <p class="text-muted">Última atualização: 05-01-2025</p>
+            </div>
+        </div>
+    </footer>
 
     <div class="overlay" id="overlay"></div>
     <div class="popup" id="popup">
@@ -210,7 +235,7 @@
         const candidaturasContent = document.getElementById('candidaturasContent');
         const popupTotal = document.getElementById('popupTotal');
     
-        let propostasData = []; // Store the loaded JSON data here
+        let propostasData = [];
     
 
         function load2324Data() {
@@ -271,6 +296,8 @@
             $('#propostasTable').bootstrapTable('destroy').bootstrapTable({
                 data: formattedData,
             });
+
+            showTotalPropostas(propostas);
         }
         
         // Show Problema in modal
@@ -341,6 +368,28 @@
             popup.style.display = 'block';
             popup.style.width = '40%';
             overlay.style.display = 'block';
+        }
+
+        function showTotalPropostas(propostasData) {
+            const totalPropostas = propostasData.length;
+            const totalAprovada = propostasData.filter(proposta => proposta.estado === 'Aprovada').length;
+            const totalCancelada = propostasData.filter(proposta => proposta.estado === 'Cancelada').length;
+            const totalPublicada = propostasData.filter(proposta => proposta.estado === 'Publicada').length;
+            const totalAtribuida = propostasData.filter(proposta => proposta.estado === 'Atribuída').length;
+            const totalAceite = propostasData.filter(proposta => proposta.estado === 'Aceite').length;
+
+
+            const totalPropostasElement = document.getElementById('totalPropostas');
+            totalPropostasElement.innerHTML = `
+                <div class="d-flex flex-row gap-2">
+                    <a><strong>Total de Propostas: ${totalPropostas}</strong></a>|
+                    <p style="color: grey;"><strong>Total de Publicadas: ${totalPublicada}</strong></p>|
+                    <p style="color: green;"><strong>Total de Aprovadas: ${totalAprovada}</strong></p>|
+                    <p style="color: magenta;"><strong>Total de Aceites: ${totalAceite}</strong></p>|
+                    <p style="color: blue;"><strong>Total de Atribuídas: ${totalAtribuida}</strong></p>|
+                    <p style="color: red;"><strong>Total de Canceladas: ${totalCancelada}</strong></p>
+                </div>
+            `;
         }
     
         function getStatusColor(status) {

@@ -12,9 +12,6 @@
     <!-- Bootstrap Table CSS -->
     <link href="https://unpkg.com/bootstrap-table@1.21.2/dist/bootstrap-table.min.css" rel="stylesheet">
     <style>
-        body {
-            margin: 20px;
-        }
         .popup {
             display: none;
             position: fixed;
@@ -41,10 +38,23 @@
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 999;
         }
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        
+        footer {
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="flex: 1;">
         <h1 class="my-4">Propostas PESTI - Candidaturas por Estudante</h1>
         <div class="d-flex flex-row gap-2">
             <a href="index.html" class="btn btn-info">Todas as Propostas</a>
@@ -53,7 +63,9 @@
         <hr class="my-4">
         <div class="mb-4 d-flex flex-row gap-2">
             <button class="btn btn-dark flex-shrink-0" onclick="openPastePopup()">Copiar e Colar o Pedido</button>
-            <input type="file" id="fileInput" accept="application/json" class="form-control flex-grow-1">
+            <div class="flex-grow-1">
+                <input type="file" id="fileInput" accept="application/json" class="form-control">
+            </div>
         </div>
         
         <div class="overlay" id="pasteOverlay"></div>
@@ -84,30 +96,7 @@
                 <button class="btn btn-secondary" onclick="load2425Data()">Carregar Propostas 2024/2025</button>
             </div>
         </div>
-        
-        <!-- <table id="propostasTable" 
-               class="table table-striped"
-               data-toggle="table"
-               data-pagination="true"
-               data-pagination-v-align="both"
-               data-page-size="All"
-               data-page-list="[10, 25, 50, 100, All]"
-               data-sortable="true"
-               data-click-to-select="true">
-            <thead>
-                <tr>
-                    <th data-field="data_submissao" data-sortable="true">Data Submissão</th>
-                    <th data-field="organizacao" data-sortable="true">Organização</th>
-                    <th data-field="titulo" data-sortable="true">Título</th>
-                    <th data-field="problema" data-sortable="true">Problema</th>
-                    <th data-field="objetivos" data-sortable="true">Objetivos</th>
-                    <th data-field="estado" data-sortable="true">Estado</th>
-                    <th data-field="acoes">Ações</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table> -->
-
+    
         <table id="estudantesTable" 
                class="table table-striped"
                data-toggle="table"
@@ -128,6 +117,17 @@
             <tbody></tbody>
         </table>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2025 Desenvolvido pelo Boda.</p>
+            <!-- O CARALHO QUE TA FODAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+            <div class="justify-content-end">
+                <p class="text-muted">Última atualização: 05-01-2025</p>
+            </div>
+        </div>
+    </footer>
 
     <div class="overlay" id="overlay"></div>
     <div class="popup" id="popup">
