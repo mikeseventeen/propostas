@@ -57,20 +57,23 @@
 </head>
 <body>
     <div class="container" style="flex: 1;">
-        <h1 class="my-4">Propostas PESTI</h1>
-        <div class="d-flex flex-row gap-2">
-            <a href="index.html" class="btn btn-primary">Todas as Propostas</a>
-            <a href="estudante.html" class="btn btn-info">Por Estudante</a> 
+        <div class="d-flex align-items-center my-4">
+            <img src="favicon.ico" alt="ISEP" style="width: 50px; margin-right: 10px;">
+            <h1 class="mb-0">Propostas PESTI</h1>
         </div>
-        <hr class="my-4">
-        
-        <div class="mb-4 d-flex flex-row gap-2">
-            <button class="btn btn-dark flex-shrink-0" onclick="openPastePopup()">Copiar e Colar o Pedido</button>
-            <div class="flex-grow-1">
-                <input type="file" id="fileInput" accept="application/json" class="form-control">
+        <div class="d-flex flex-column flex-md-row gap-2 justify-content-between">
+            <div class="d-flex flex-column flex-md-row gap-2">
+                <a href="index.html" class="btn btn-primary">Todas as Propostas</a>
+                <a href="estudante.html" class="btn btn-info">Por Estudante</a>
+            </div>
+            <div class="d-flex flex-column flex-md-row gap-2 justify-content-end">
+                <button class="btn btn-dark flex-shrink-0" onclick="openPastePopup()">Copiar e Colar o Pedido</button>
+                <div class="flex-grow-1">
+                    <input type="file" id="fileInput" accept="application/json" class="form-control">
+                </div>
             </div>
         </div>
-        
+        <hr class="my-4">
         <div class="overlay" id="pasteOverlay"></div>
         <div class="popup" id="pastePopup" style="width: 50%;">
             <div class="d-flex justify-content-between mb-4 sticky-top bg-white p-2">
@@ -135,7 +138,7 @@
             <p class="col-md-4 mb-0 text-body-secondary">© 2025 Desenvolvido pelo Boda.</p>
             <!-- O CARALHO QUE TA FODAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
             <div class="justify-content-end">
-                <p class="text-muted">Última atualização: 15-01-2025</p>
+                <p class="text-muted">Última atualização: 19-01-2025</p>
             </div>
         </div>
     </footer>
@@ -206,6 +209,11 @@
     
         function openPastePopup() {
             pastePopup.style.display = 'block';
+            if (window.innerWidth < 768) {
+                pastePopup.style.width = '90%';
+            } else {
+                pastePopup.style.width = '40%';
+            }
             pasteOverlay.style.display = 'block';
         }
     
@@ -326,15 +334,94 @@
             const totalSelecionada = candidaturas.filter(c => c.estado === 'Selecionada').length;
             const totalCandidatada = candidaturas.filter(c => c.estado === 'Candidatada').length;
             const totalRetirada = candidaturas.filter(c => c.estado === 'Retirada').length;
+            const totalAceite = candidaturas.filter(c => c.estado === 'Aceite').length;
+            const totalAtribuida = candidaturas.filter(c => c.estado === 'Atribuída').length;
+            const totalAprovada = candidaturas.filter(c => c.estado === 'Aprovada').length;
 
-            popupTotal.innerHTML = `
-                <div class="d-flex flex-row gap-2">
-                    <a>Total de Candidaturas: ${candidaturas.length}</a>|
-                    <p style="color: green;">Total de Candidatadas: ${totalCandidatada}</p>|
-                    <p style="color: grey;">Total de Selecionadas: ${totalSelecionada}</p>|
-                    <p style="color: red;">Total de Retiradas: ${totalRetirada}</p>
+            const proposta = propostasData[index];
+            popupTotal.innerHTML = `<h5>${proposta.organizacao.denominacao_curta} - <strong>${proposta.submissao.titulo}</strong></h5>`;
+
+            if (totalAtribuida > 0) {
+                popupTotal.innerHTML += `
+                <div class="row row-cols-1 g-2 text-center mb-2">
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #cce5ff; color: #004085;">
+                            <div class="card-body">
+                                <h5 class="card-title">Proposta atribuída a</h5>
+                                <h4 class="card-text text-xl"><strong>${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}</strong></h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                `;
+            } else if (totalAceite > 0) {
+                popupTotal.innerHTML += `
+                <div class="row row-cols-1 g-2 text-center mb-2">
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #ffe5ff; color: #800080;">
+                            <div class="card-body">
+                                <h5 class="card-title">Proposta aceite por</h5>
+                                <h4 class="card-text text-xl"><strong>${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            } else if (totalAprovada > 0) {
+                popupTotal.innerHTML += `
+                <div class="row row-cols-1 g-2 text-center mb-2">
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #d4edda; color: #155724;">
+                            <div class="card-body">
+                                <h5 class="card-title">Proposta aprovada para</h5>
+                                <h4 class="card-text text-xl"><strong>${proposta.atribuicao.estudante.nome} ${proposta.atribuicao.estudante.sobrenome}</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            }
+
+
+            popupTotal.innerHTML += `
+                <div class="row row-cols-2 row-cols-md-4 g-2 text-center mb-2">
+                    <div class="col">
+                        <div class="card text-bg-light h-100">
+                            <div class="card-body">
+                                <h6 class="card-title">Total Candidaturas</h6>
+                                <p class="card-text">${candidaturas.length}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #d4edda; color: #155724;">
+                            <div class="card-body">
+                                <h6 class="card-title">Candidatadas</h6>
+                                <p class="card-text">${totalCandidatada}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #e2e3e5; color: #383d41;">
+                            <div class="card-body">
+                                <h6 class="card-title">Selecionadas</h6>
+                                <p class="card-text">${totalSelecionada}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #f8d7da; color: #721c24;">
+                            <div class="card-body">
+                                <h6 class="card-title">Retiradas</h6>
+                                <p class="card-text">${totalRetirada}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4">
             `;
+
+            
         
             const formattedCandidaturas = candidaturas.map(candidatura => ({
             nome_completo: `${candidatura.estudante.nome} ${candidatura.estudante.sobrenome}`,
@@ -366,7 +453,11 @@
             });
         
             popup.style.display = 'block';
-            popup.style.width = '40%';
+            if (window.innerWidth < 768) {
+                popup.style.width = '90%';
+            } else {
+                popup.style.width = '40%';
+            }
             overlay.style.display = 'block';
         }
 
@@ -381,15 +472,59 @@
 
             const totalPropostasElement = document.getElementById('totalPropostas');
             totalPropostasElement.innerHTML = `
-                <div class="d-flex flex-row gap-2">
-                    <a><strong>Total de Propostas: ${totalPropostas}</strong></a>|
-                    <p style="color: grey;"><strong>Total de Publicadas: ${totalPublicada}</strong></p>|
-                    <p style="color: green;"><strong>Total de Aprovadas: ${totalAprovada}</strong></p>|
-                    <p style="color: magenta;"><strong>Total de Aceites: ${totalAceite}</strong></p>|
-                    <p style="color: blue;"><strong>Total de Atribuídas: ${totalAtribuida}</strong></p>|
-                    <p style="color: red;"><strong>Total de Canceladas: ${totalCancelada}</strong></p>
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4 text-center mb-4">
+                    <div class="col">
+                        <div class="card text-bg-light h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Propostas</h5>
+                                <p class="card-text"><strong>${totalPropostas}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-light h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Publicadas</h5>
+                                <p class="card-text"><strong>${totalPublicada}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #d4edda; color: #155724;">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Aprovadas</h5>
+                                <p class="card-text"><strong>${totalAprovada}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #f8d7da; color: #721c24;">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Canceladas</h5>
+                                <p class="card-text"><strong>${totalCancelada}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #cce5ff; color: #004085;">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Atribuídas</h5>
+                                <p class="card-text"><strong>${totalAtribuida}</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100" style="background-color: #ffe5ff; color: #800080;">
+                            <div class="card-body">
+                                <h5 class="card-title">Total Aceites</h5>
+                                <p class="card-text"><strong>${totalAceite}</strong></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             `;
+
+            
         }
     
         function getStatusColor(status) {
